@@ -1,5 +1,8 @@
-﻿using System;
+﻿using EF_Core.Models;
+using EF_Core.Models.Service;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +23,42 @@ namespace EF_Core.Pages
     /// </summary>
     public partial class Add_User :Page
     {
-        public Add_User()
+        public UserService _service = new();
+        public User _user = new();
+        public User _selecteduser=new();
+        bool isEdit = false;
+
+        ObservableCollection<User> _users = new ObservableCollection<User>();
+
+        public Add_User(User? _edituser=null,UserService? _service=null)
         {
             InitializeComponent();
+
+            if (_edituser != null)
+            {
+                _user=_edituser;
+                isEdit = true;
+            }
+
+            if (_service != null) this._service = _service;
+
+            DataContext = _user;
+        }
+
+        private void Save(object sender,RoutedEventArgs e)
+        {
+            if (isEdit) { _service.Commit();_service.GetAll(); }
+            else 
+            {
+                _user.CreatedAt = DateTime.Now;
+                _service.Add(_user);
+            }
+            NavigationService.GoBack(); ;
+        }
+
+        private void Back(object sender,RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }

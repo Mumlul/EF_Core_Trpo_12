@@ -7,9 +7,41 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Main"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
       >
-
     <Grid>
-        
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <ListView Grid.Row="1" Grid.Column="1"
+                  SelectedItem="{Binding user}"
+                  MouseDoubleClick="Edit"
+                  ItemsSource="{Binding service.Users}"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Add" Click="Add_user"/>
+            
+        </StackPanel>
     </Grid>
 </Page>

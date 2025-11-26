@@ -7,13 +7,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EF_Core.Models.Context
 {
-    public class AppDBContext:DbContext
+    public class AppDbContext:DbContext
     {
         public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {
-            optionsBuilder.UseSqlServer("Server=sql.ects;Database=EF_Core_PL;User Id = student_07;Password = student_07;TrustServerCertificate = True;");
+            optionsbuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
         }
     }
 }
