@@ -3,28 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127051740_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251127051740_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\migrations\\20251125045042_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:migrations\\20251125045042_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127045103_Sv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251127045103_Sv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\rules\\validations\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:rules\\validations\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\pages\\add_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:pages\\add_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\rules\\validations\\text_rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:rules\\validations\\text_rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\rules\\validations\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:rules\\validations\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\styles\\ui\\stackpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:styles\\ui\\stackpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\rules\\validations\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:rules\\validations\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\styles\\ui\\datapicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:styles\\ui\\datapicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\pages\\add_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:pages\\add_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127033050_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251127033050_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|c:\\users\\st310-07\\documents\\\u043F\u043B\u043E\u0441\u043A\u0438\u0445\\ef_core\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A98EEFE0-6D1B-40F9-B89B-877F7223F5A8}|EF_Core.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "20251127051740_Init2.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127051740_Init2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251127051740_Init2.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127051740_Init2.cs*",
+              "RelativeToolTip": "Migrations\\20251127051740_Init2.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:17:41.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDBContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\AppDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
@@ -58,51 +115,183 @@
               "RelativeToolTip": "Migrations\\AppDBContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:51:06.227Z",
+              "WhenOpened": "2025-11-27T05:00:46.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251127045103_Sv.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127045103_Sv.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251127045103_Sv.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127045103_Sv.cs",
+              "RelativeToolTip": "Migrations\\20251127045103_Sv.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T04:51:03.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T04:26:55.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\UserProfile.cs",
+              "RelativeToolTip": "Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T04:22:13.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Email.cs",
+              "RelativeDocumentMoniker": "Rules\\Validations\\Email.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Email.cs",
+              "RelativeToolTip": "Rules\\Validations\\Email.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:53:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add_User.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Pages\\Add_User.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Add_User.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Pages\\Add_User.xaml.cs",
+              "RelativeToolTip": "Pages\\Add_User.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:44:10.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataPicker.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Styles\\UI\\DataPicker.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\DataPicker.xaml",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Styles\\UI\\DataPicker.xaml",
+              "RelativeToolTip": "Styles\\UI\\DataPicker.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-27T03:42:15.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Date.cs",
+              "RelativeDocumentMoniker": "Rules\\Validations\\Date.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Date.cs",
+              "RelativeToolTip": "Rules\\Validations\\Date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:35:05.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:32:44.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20251125045042_InitialDB.cs",
-              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251125045042_InitialDB.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251125045042_InitialDB.cs",
-              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251125045042_InitialDB.cs",
-              "RelativeToolTip": "Migrations\\20251125045042_InitialDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:50:43.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\Context\\AppDBContext.cs",
               "RelativeDocumentMoniker": "Models\\Context\\AppDBContext.cs",
               "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\Context\\AppDBContext.cs",
               "RelativeToolTip": "Models\\Context\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:44:00.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:05:18.338Z",
+              "DocumentIndex": 13,
+              "Title": "StackPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Styles\\UI\\StackPanel.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\StackPanel.xaml",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Styles\\UI\\StackPanel.xaml",
+              "RelativeToolTip": "Styles\\UI\\StackPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-27T03:49:57.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
+              "Title": "20251127033050_Init.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127033050_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251127033050_Init.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Migrations\\20251127033050_Init.cs",
+              "RelativeToolTip": "Migrations\\20251127033050_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:30:50.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Login.cs",
+              "RelativeDocumentMoniker": "Rules\\Validations\\Login.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Login.cs",
+              "RelativeToolTip": "Rules\\Validations\\Login.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:30:37.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Text_Rules.cs",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Text_Rules.cs",
+              "RelativeDocumentMoniker": "Rules\\Validations\\Text_Rules.cs",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Rules\\Validations\\Text_Rules.cs",
+              "RelativeToolTip": "Rules\\Validations\\Text_Rules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T04:04:35.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Add_User.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Pages\\Add_User.xaml",
               "RelativeDocumentMoniker": "Pages\\Add_User.xaml",
@@ -114,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Main.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\Pages\\Main.xaml",
               "RelativeDocumentMoniker": "Pages\\Main.xaml",
@@ -126,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -138,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -150,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\\u041F\u043B\u043E\u0441\u043A\u0438\u0445\\EF_Core\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -158,8 +347,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:45:51.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T03:45:51.685Z"
             }
           ]
         }

@@ -11,20 +11,17 @@ namespace EF_Core.Models
 {
     public class User:ObservableObject
     {
-        /*public int Id { get; set; }
-        public string Login { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }*/
-
-        /*public DateTime CreatedAt { get; set; }*/
-
+        #region Private
         private int id;
         private string? login;
         private string? name;
         private string? email;
         private string? password;
-        private DateTime createdat;
+        private DateTime createdat = DateTime.Today;
+        UserProfile _profile;
+        int _roleid;
+        Role _role; 
+        #endregion
 
         public int Id { get => id; set { id = value; SetProperty(ref id, value); } }
         public string Login { get => login ?? "_"; set { login = value; SetProperty(ref login, value); } }
@@ -32,6 +29,9 @@ namespace EF_Core.Models
         public string Email { get => email ?? "_"; set { email = value; SetProperty(ref email, value); } }
         public string Password { get => password ?? "_"; set { password = value; SetProperty(ref password, value); } }
         public DateTime CreatedAt { get => createdat; set { createdat = value; SetProperty(ref createdat, value); } }
+        public UserProfile Profile { get => _profile;set {_profile = value;SetProperty(ref _profile, value); } }
+        public int RoleId { get => _roleid; set { _roleid = value;SetProperty(ref _roleid, value); } }
+        public Role Role { get => _role; set { _role = value; SetProperty(ref _role, value); } }
 
 
     }

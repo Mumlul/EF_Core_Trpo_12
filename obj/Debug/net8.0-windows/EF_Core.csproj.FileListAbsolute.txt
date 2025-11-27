@@ -314,3 +314,9 @@ C:\Users\mumlul\Desktop\TRPO_12\EF_Core_Trpo_12\obj\Debug\net8.0-windows\refint\
 C:\Users\mumlul\Desktop\TRPO_12\EF_Core_Trpo_12\obj\Debug\net8.0-windows\EF_Core.pdb
 C:\Users\mumlul\Desktop\TRPO_12\EF_Core_Trpo_12\obj\Debug\net8.0-windows\EF_Core.genruntimeconfig.cache
 C:\Users\mumlul\Desktop\TRPO_12\EF_Core_Trpo_12\obj\Debug\net8.0-windows\ref\EF_Core.dll
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\Rules\Convertors\test.baml
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\Styles\UI\ListView.baml
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\Styles\UI\TextBox.baml
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\Styles\UI\DataPicker.baml
+C:\Users\st310-07\Documents\Плоских\EF_Core\obj\Debug\net8.0-windows\Styles\UI\StackPanel.baml

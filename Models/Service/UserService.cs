@@ -30,6 +30,9 @@ namespace EF_Core.Models.Service
                 Email = user.Email,
                 Password = user.Password,
                 CreatedAt = user.CreatedAt,
+                Profile = user.Profile,
+                RoleId= user.RoleId,
+                Role=user.Role,
             };
 
             _db.Add<User>(_user);

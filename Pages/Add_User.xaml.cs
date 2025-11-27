@@ -52,6 +52,7 @@ namespace EF_Core.Pages
             {
                 _user.CreatedAt = DateTime.Now;
                 _service.Add(_user);
+                _service.GetAll();
             }
             NavigationService.GoBack(); ;
         }

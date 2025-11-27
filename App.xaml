@@ -11,6 +11,8 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
                 <ResourceDictionary Source="/Styles/UI/ListView.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/TextBox.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/DataPicker.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/StackPanel.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -32,14 +32,14 @@
                 <DataTemplate>
                     <StackPanel>
                         <StackPanel>
-                            <TextBlock Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"/>
+                            <TextBlock Text="{Binding Login,UpdateSourceTrigger=PropertyChanged}"/>
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button Content="Add" Click="Add_user"/>
             
         </StackPanel>

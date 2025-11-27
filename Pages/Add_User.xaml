@@ -4,10 +4,12 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:validations="clr-namespace:EF_Core.Rules.Validations"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:EF_Core.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Add_User">
+      Title="Add_User"
+      >
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -30,7 +32,7 @@
                         <Binding Path="Login" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
                                 <validations:Empty/>
-                                <validations:TextRules/>
+                                <validations:Login/>
                             </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
@@ -104,10 +106,29 @@
                 </ItemsControl>
             </StackPanel>
             <StackPanel>
-                <Button Click="Save">Сохранить в БД</Button>
-                <Button Click="Back">Назад</Button>
+                <Label>Дата активации аккаунта</Label>
+                <DatePicker x:Name="Date" materialDesign:HintAssist.Hint="Дата активации аккаунта" Style="{StaticResource FormDatePicker}">
+                    <DatePicker.SelectedDate>
+                        <Binding Path="CreatedAt" UpdateSourceTrigger="PropertyChanged" >
+                        <Binding.ValidationRules>
+                             <validations:Date/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                    </DatePicker.SelectedDate>
+                </DatePicker>
+                <ItemsControl ItemsSource="{Binding ElementName=Date,Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </StackPanel>
+            
         </StackPanel>
-
+        <StackPanel Grid.Row="2" Grid.Column="1" Style="{StaticResource Button_stack}">
+            <Button Click="Save">Сохранить в БД</Button>
+            <Button Click="Back">Назад</Button>
+        </StackPanel>
     </Grid>
 </Page>
