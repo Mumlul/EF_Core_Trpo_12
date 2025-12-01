@@ -44,5 +44,11 @@ namespace EF_Core.Pages
             }
             NavigationService.Navigate(new Add_User(user,service));
         }
+
+        private void View_Roles(object sender,RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new View_Role());
+        }
+
     }
 }

@@ -6,11 +6,17 @@
       xmlns:validations="clr-namespace:EF_Core.Rules.Validations"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:EF_Core.Pages"
+      xmlns:services="clr-namespace:EF_Core.Models.Service"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Add_User"
+      Background="White"
       >
 
+    <Page.Resources>
+        <services:RoleService x:Key="role_Service"/>
+    </Page.Resources>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -23,6 +29,10 @@
             <RowDefinition Height="6*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+
+        <StackPanel x:Name="Sidebar" Grid.Row="1" Visibility="Visible" HorizontalAlignment="Center">
+            <TextBlock  Text="Профиль" MouseDown="View_Profile"/>
+        </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="1">
             <StackPanel>
@@ -124,10 +134,18 @@
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
             </StackPanel>
+
+            <StackPanel>
+                <Label>Выберите роль</Label>
+                <ComboBox ItemsSource="{Binding Source={StaticResource role_Service},Path=Roles}"
+                          DisplayMemberPath="Title"
+                          SelectedItem="{Binding Role}"/>
+            </StackPanel>
             
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1" Style="{StaticResource Button_stack}">
             <Button Click="Save">Сохранить в БД</Button>
+            <Separator Width="10" Visibility="Hidden"/>
             <Button Click="Back">Назад</Button>
         </StackPanel>
     </Grid>

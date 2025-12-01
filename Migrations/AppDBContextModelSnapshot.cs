@@ -91,6 +91,18 @@ namespace EF_Core.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2025, 12, 1, 0, 0, 0, 0, DateTimeKind.Local),
+                            Email = "a.ploskikh@list.ru",
+                            Login = "asd",
+                            Name = "Sasha",
+                            Password = "qwerty1_W",
+                            RoleId = 1
+                        });
                 });
 
             modelBuilder.Entity("EF_Core.Models.UserProfile", b =>
@@ -106,7 +118,6 @@ namespace EF_Core.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BIO")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("BirthDay")

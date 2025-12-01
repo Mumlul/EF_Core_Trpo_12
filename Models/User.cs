@@ -24,8 +24,8 @@ namespace EF_Core.Models
         #endregion
 
         public int Id { get => id; set { id = value; SetProperty(ref id, value); } }
-        public string Login { get => login ?? "_"; set { login = value; SetProperty(ref login, value); } }
-        public string Name { get => name ?? "_"; set { name = value; SetProperty(ref name, value); } }
+        public string Login { get => login ?? "_"; set { login = string.IsNullOrEmpty(value)? "_":value; SetProperty(ref login, value); } }
+        public string Name { get => name ?? "_"; set { name =string.IsNullOrEmpty(value)?"_" : value ; SetProperty(ref name, value); } }
         public string Email { get => email ?? "_"; set { email = value; SetProperty(ref email, value); } }
         public string Password { get => password ?? "_"; set { password = value; SetProperty(ref password, value); } }
         public DateTime CreatedAt { get => createdat; set { createdat = value; SetProperty(ref createdat, value); } }

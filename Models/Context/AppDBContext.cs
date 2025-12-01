@@ -18,7 +18,7 @@ namespace EF_Core.Models.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {
-            optionsbuilder.UseSqlServer("Server=sql.ects;Database=PL;User Id = student_07;Password = student_07;TrustServerCertificate = True;");
+            optionsbuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -27,6 +27,10 @@ namespace EF_Core.Models.Context
             new Role { Id = 1, Title = "Пользователь" },
             new Role { Id = 2, Title = "Менеджер" },
             new Role { Id = 3, Title = "Администратор" }
+            );
+
+            modelBuilder.Entity<User>().HasData(
+            new User {Id=1,Login="asd",Name="Sasha",Email="a.ploskikh@list.ru",Password="qwerty1_W",CreatedAt=DateTime.Today,RoleId=1 }    
             );
 
             modelBuilder.Entity<User>()

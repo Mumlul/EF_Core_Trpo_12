@@ -47,6 +47,14 @@ namespace EF_Core.Models.Service
             }
         }
 
+        public void LoadRelation(Role role,string relation)
+        {    
+            var entry=_db.Entry(role);
 
+            var navigation = entry.Metadata.FindNavigation(relation) ?? throw new InvalidOperationException($"Navigation '{relation}' not found)");
+
+            if(navigation.IsCollection) entry.Collection(relation).Load();
+            else entry.Reference(relation).Load();
+        }
     }
 }

@@ -17,13 +17,14 @@ namespace EF_Core.Models
         string _bio;
         int _userId;
         User _user;
+        string defaultAvatarPath = System.IO.Path.Combine(AppContext.BaseDirectory, @"images\plug.jpg");
         #endregion
 
         public int Id { get => _id;  set { _id = value; SetProperty(ref _id, value); } }
-        public string Avaterlurl { get =>_avatarlurl;  set { _avatarlurl = value; SetProperty(ref _avatarlurl, value); } }
+        public string Avaterlurl { get =>_avatarlurl?? defaultAvatarPath;  set { _avatarlurl = string.IsNullOrEmpty(value) ? defaultAvatarPath : value; SetProperty(ref _avatarlurl, value); } }
         public int Phone { get => phone; set { phone = value; SetProperty(ref phone, value); } }
-        public DateTime BirthDay { get => _birthday; set { _birthday = value; SetProperty(ref _birthday, value); } }
-        public string BIO { get =>_bio;  set { _bio = value; SetProperty(ref _bio, value); } }
+        public DateTime BirthDay { get => _birthday; set { _birthday = _birthday = value == default(DateTime) ? DateTime.Today : value; ; SetProperty(ref _birthday, value); } }
+        public string? BIO { get =>_bio;  set { var safeValue = string.IsNullOrEmpty(value) ? "_" : value; ; SetProperty(ref _bio, safeValue); } }
         public User User { get => _user; set { _user = value; SetProperty(ref _user, value); } }
         public int UserId { get => _userId; set { _userId = value;SetProperty(ref _userId, value); } } 
     }

@@ -1,4 +1,5 @@
 ﻿using EF_Core.Models.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -41,7 +42,10 @@ namespace EF_Core.Models.Service
 
         public void GetAll()
         {
-            var users = _db.Users.ToList();
+            var users = _db.Users
+                .Include(s=> s.Profile)
+                .Include(s=> s.Role)
+                .ToList();
             Users.Clear();
             foreach (var user in users)
             {

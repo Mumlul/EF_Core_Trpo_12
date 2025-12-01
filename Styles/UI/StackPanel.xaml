@@ -3,5 +3,6 @@
     <Style x:Key="Button_stack" TargetType="StackPanel">
         <Setter Property="Orientation" Value="Horizontal"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
     </Style>
 </ResourceDictionary>
