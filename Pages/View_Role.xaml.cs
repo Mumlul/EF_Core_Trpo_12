@@ -2,7 +2,9 @@
 using EF_Core.Models.Service;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,38 +25,50 @@ namespace EF_Core.Pages
     public partial class View_Role : Page
     {
         public RoleService _service = new();
-        public Role _role = new ();
-        public Role? current { get; set; } = null;
+        public Role role = new();
+
+        private Role? _newRole;
+        public Role NewRole => test != null ? test : (_newRole ??= new Role());
+
+
+        public Role? test { get; set; } = null;
+
         private bool isEdit = false;
 
-        public View_Role(Role? role=null)
+        public View_Role()
         {
             InitializeComponent();
-
-           if(current != null)
-           {
-                _service.LoadRelation(current, "Users");
-                _role = current;
-                isEdit = true;
-           }
-
-            DataContext = _role;
+            DataContext = this;
+            Add_role_place.DataContext = role;
         }
 
-        private void Select_Role(object sender,RoutedEventArgs e)
+        private void Go_back(object sender, RoutedEventArgs e)
         {
-            if (current != null)
+            NavigationService.GoBack();
+        }
+
+        private void Add_Role(object sebnder, RoutedEventArgs e)
+        {
+            if (test == null)
             {
-                _service.LoadRelation(current, "Users");
-                _role = current;
-                isEdit = true;
+                _service.Add(role);
+                _service.GetAll();
             }
             else
             {
-                MessageBox.Show("bomboclat");
+                role = test;
             }
         }
 
+        private void View_Users_List(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Users_role(test));
+        }
 
+        private void Delete_Role(object sender,RoutedEventArgs e)
+        {
+            if (test == null) MessageBox.Show("Выберите элемент");
+            else _service.Remove(test);
+        }
     }
 }

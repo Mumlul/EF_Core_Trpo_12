@@ -96,7 +96,7 @@ namespace EF_Core.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 12, 1, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedAt = new DateTime(2025, 12, 3, 0, 0, 0, 0, DateTimeKind.Local),
                             Email = "a.ploskikh@list.ru",
                             Login = "asd",
                             Name = "Sasha",
@@ -123,8 +123,8 @@ namespace EF_Core.Migrations
                     b.Property<DateTime>("BirthDay")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Phone")
-                        .HasColumnType("int");
+                    b.Property<long>("Phone")
+                        .HasColumnType("bigint");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

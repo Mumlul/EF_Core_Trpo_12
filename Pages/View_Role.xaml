@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EF_Core.Pages"
       xmlns:services="clr-namespace:EF_Core.Models.Service"
+      xmlns:validations="clr-namespace:EF_Core.Rules.Validations"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="View_Role"
@@ -36,29 +37,48 @@
             
             <!--Левая часть-->
             <StackPanel Grid.Column="0">
-                <ComboBox ItemsSource="{Binding Source={StaticResource role_Service},Path=Roles}"
-                          DisplayMemberPath="Title"
-                          SelectedItem="{Binding current, UpdateSourceTrigger=PropertyChanged}"
-                          SelectionChanged="Select_Role"
-                          />
+                <ListView ItemsSource="{Binding Source={StaticResource role_Service},Path=Roles}"
+                          SelectedItem="{Binding test,UpdateSourceTrigger=PropertyChanged}"
+                          MouseDoubleClick="View_Users_List">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock>
+                                <Run Text="{Binding Title}"/>
+                            </TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </StackPanel>
             
 
             <!--Правая часть-->
-            <ListView Grid.Column="1" ItemsSource="{Binding Users}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock>
-                            <Run Text="{Binding Name}"/>
-                        </TextBlock>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <StackPanel Grid.Column="1" x:Name="Add_role_place">
+                <Label>Название роли</Label>
+                <TextBox x:Name="Title">
+                    <TextBox.Text>
+                        <Binding Path="Title" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validations:Empty/>
+                                <validations:TextRules/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl ItemsSource="{Binding ElementName=Title,Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
         </Grid>
         <StackPanel Grid.Column="1" Grid.Row="2" Style="{StaticResource Button_stack}">
-            <Button Content="Добавить"/>
+            <Button Content="Добавить" Click="Add_Role"/>
             <Separator Width="10" Visibility="Hidden"/>
-            <Button Content="Назад"/>
+            <Button Content="Удалить" Click="Delete_Role"/>
+            <Separator Width="10" Visibility="Hidden"/>
+            <Button Content="Назад" Click="Go_back"/>
         </StackPanel>
     </Grid>
 </Page>

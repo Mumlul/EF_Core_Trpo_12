@@ -29,10 +29,6 @@ namespace EF_Core.Pages
         bool isEdit = false;
         ObservableCollection<User> _users = new ObservableCollection<User>();
 
-       
-
-        
-
         public Add_User(User? _edituser=null,UserService? _service=null)
         {
             InitializeComponent();

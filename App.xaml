@@ -13,6 +13,7 @@
                 <ResourceDictionary Source="/Styles/UI/TextBox.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/DataPicker.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/StackPanel.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/ComboBox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

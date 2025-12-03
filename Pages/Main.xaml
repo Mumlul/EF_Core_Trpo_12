@@ -24,8 +24,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="1">
-            <Label Content="Roles" MouseDoubleClick="View_Roles"/>
+        <StackPanel Grid.Row="1" >
+            <Label Content="Roles" MouseDoubleClick="View_Roles" HorizontalAlignment="Center"/>
         </StackPanel>
         
         

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\App.xaml
-101646334958
+11-1993941704
 22399949373
-372102340280
+44-2013381788
 2312015181997
-MainWindow.xaml;Pages\Add_User.xaml;Pages\Main.xaml;Pages\User_Profile.xaml;Pages\View_Role.xaml;Rules\Convertors\test.xaml;Styles\UI\DataPicker.xaml;Styles\UI\ListView.xaml;Styles\UI\StackPanel.xaml;Styles\UI\TextBox.xaml;
+MainWindow.xaml;Pages\Add_User.xaml;Pages\Main.xaml;Pages\Users_role.xaml;Pages\User_Profile.xaml;Pages\View_Role.xaml;Styles\UI\ComboBox.xaml;Styles\UI\DataPicker.xaml;Styles\UI\ListView.xaml;Styles\UI\StackPanel.xaml;Styles\UI\TextBox.xaml;
 
 False
 

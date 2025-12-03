@@ -453,7 +453,6 @@ C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\bin\Debug\net8.0-windows\runtime
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\EF_Core.csproj.AssemblyReference.cache
-C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Rules\Convertors\test.baml
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Styles\UI\DataPicker.baml
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Styles\UI\ListView.baml
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Styles\UI\StackPanel.baml
@@ -486,3 +485,6 @@ C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\V
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\User_Profile.g.cs
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\User_Profile.baml
 C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\View_Role.baml
+C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\Users_role.g.cs
+C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Pages\Users_role.baml
+C:\Users\mumlul\Desktop\trpo_13\EF_Core_Trpo_12\obj\Debug\net8.0-windows\Styles\UI\ComboBox.baml

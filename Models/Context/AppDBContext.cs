@@ -19,6 +19,7 @@ namespace EF_Core.Models.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {
             optionsbuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
